@@ -1,0 +1,30 @@
+a{
+	outline:0 !important;	
+}
+.navbar-default {
+	background-color: transparent;
+	font-size:16px;
+	border-radius:0;
+	margin-bottom:0;
+	border:0;	
+	height: 38px;
+	width: 100%;
+	top: 20px;
+	position: absolute;
+	z-index: 98;
+}
+.navbar-default .navbar-nav li a{
+	color:#FFFFFF;	
+	font-weight:400;
+}
+.navbar-default .navbar-nav li a:hover{
+	color:#000000;	
+}
+.navbar-default .navbar-nav li.active a{
+	background-color:transparent;
+	color:#212121;		
+}
+.navbar-default .navbar-nav li.active a:hover{
+	background-color:#FFF;
+	color:#000000;
+}
