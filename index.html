@@ -8,12 +8,12 @@
 <link href="css/bootstrap-custom.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 <link href="css/lightbox.css" rel="stylesheet">
+<link href="css/scrolling-nav.css" rel="stylesheet">
 <meta name="description" content="Este es el portafolio de Omar Sánchez">
 <meta name="keywords" content="Diseño Gráfico, Comunicacion y Publicidad, Publicidad, Creatividad, Innovación, Omar Sánchez">
-
-
+	
 </head>
-<body>
+<body id="page-top" data-spy="scroll" data-target=".navbar">
 	<nav class="navbar navbar-default">
 	<div class="container-fluid">
     	<div class="navbar-header">
@@ -27,14 +27,14 @@
                  <div class="collapse navbar-collapse" id="nav">
                   <ul class="nav navbar-nav navbar-right">
 					  <li class="active"><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
-                        <li><a href="#sec-fotografia">Fotografía</a></li>
-                        <li><a href="#sec-disngraf">Diseño Gráfico</a></li>
-                        <li><a href="#">Música</a></li>
-                        <li><a href="#"><i class="fa fa-mobile" aria-hidden="true"></i> Contact Us</a></li>
+                        <li><a class="page-scroll" href="#sec-fotografia">Fotografía</a></li>
+                        <li><a class="page-scroll" href="#sec-disngraf">Diseño Gráfico</a></li>
+                        <li><a class="page-scroll" href="#"><i class="fa fa-mobile" aria-hidden="true"></i> Contact</a></li>
                   </ul>
                 </div>
               </div>
             </nav>
+	
 	<div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -68,7 +68,7 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-	
+<span class="ir-arriba icon-arrow-up2"></span>	
 	
 <section id="sec-fotografia" class="section">
 		<div class="container">
@@ -79,7 +79,7 @@
 				
 					</article>
 				<article class="col-md-4 text-right">
-					<img id="t4i" src="img/camicon.jpg" class="img-responsive" alt="t4i">
+					<img id="t4i" src="img/camicono.png" class="img-responsive" alt="t4i">
 				</article>
 				<div class="galeriaimg text-center">
 					<h2> Portafolio</h2>
@@ -134,7 +134,7 @@
 	<div class="container">
 		<div class="row">
 			<article class="col-md-4 text-right">
-				<img id="diseno" src="img/creatividad.png" class="img-responsive" alt="diseno">
+				<img id="diseno" src="img/creativ.png" class="img-responsive" alt="diseno">
 			</article>
 			<article id="grafdesign" class="col-md-8 text-center">
 				<h2>Diseño Gráfico</h2>	
@@ -144,11 +144,29 @@
 		</div>
 	</div>
 	</section>
+	<section id="sec-contact">
+	<div class="container">
+		<div class="row">
+			<article id="contacto" class="col-md-8 text-center">
+						<h2> Fotografía</h2>
+						<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la impxrenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. </p>
+				
+					</article>
+				<article class="col-md-4 text-right">
+					<img id="contac" src="img/camicon.jpg" class="img-responsive" alt="t4i">
+				</article>
+				
+		</div>
+	</div>
+	</section>
 	
-	
-	
+
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-<script src="js/lightbox.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/scrolling-nav.js"></script>
+	<script src="js/lightbox.js"></script>
+	<script src="js/jquery.scrollUp.min.js"></script>
+	<script src="js/arriba.js"></script>
 </body>
 </html>

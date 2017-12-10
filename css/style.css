@@ -1,5 +1,21 @@
 @charset "UTF-8";
 /* CSS Document */
+body{
+	
+}
+.icon-arrow-up2:before {
+  content: "\ea3a";
+}
+.ir-arriba{
+	font-size: 20px;
+	display: inline-block;
+	padding: 20px;
+	background: none;
+	color: rgba(158,158,158,1.00);
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
 .fondoimg{
 	height: 100%;
 }
@@ -8,8 +24,9 @@
 	padding-bottom: 30px;
 }
 #t4i{
-	width: 100%;
-	padding-top: 14px;
+	width: 70%;
+	padding-top: 10px;
+	padding-left: 30px;
 }
 #sec-fotografia{
 	background-color:rgba(250,250,250,1.00);
@@ -21,4 +38,20 @@
 }
 #sec-disngraf{
 	background-color:rgba(250,250,250,1.00);
+}
+#grafdesign{
+		padding-top: 50px;
+	padding-bottom: 30px;
+}
+#diseno{
+	width: 70%;
+	padding-top: 10px;
+	padding-left: 30px;
+}
+#scrollUp {
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background: #555;
+  color: #fff;
 }
