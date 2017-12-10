@@ -6,7 +6,7 @@ body{
 .icon-arrow-up2:before {
   content: "\ea3a";
 }
-.ir-arriba{
+.fa-chevron-up{
 	font-size: 20px;
 	display: inline-block;
 	padding: 20px;
