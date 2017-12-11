@@ -51,10 +51,15 @@ h2{
 }
 .contacto{
 	color: #FFFFFF;
-	background-color:rgba(111,111,111,1.00);
+	background-color:black;
 	padding-top: 40px;
 	padding-bottom: 60px;
 	
+}
+.contacto .btn{
+	margin-top: 20px;
+	background-color: gray;
+	border-color: transparent;
 }
 .sec-portafolio{
 	background-color:rgba(250,250,250,1.00); 
@@ -62,4 +67,7 @@ h2{
 	margin-bottom: 20px;
 	padding-top: 20px;
 	padding-bottom: 20px;
+}
+#map{
+	
 }
