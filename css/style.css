@@ -24,30 +24,18 @@ h2{
 	height: 100%;
 }
 #sec-acerca{
-	margin: 100px;
+	margin-top: 30px;
+	margin-bottom: 60px;
 }
-#foto-c{ 
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-#t4i{
-	height: 10px 10px;
-}
-
-#sec-disngraf{
+#sec-servicios{
 	background-image:url(../img/ceiba.jpg);
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size: cover;
 	background-attachment: fixed;
 	color: #fff;
-	
-	
-}
-#diseno{
-	display: block;
-	margin: auto;
-	width: 70%;
+	padding-top: 30px;
+	padding-bottom: 60px;
 }
 #scrollUp {
   bottom: 20px;
@@ -61,16 +49,11 @@ h2{
 	padding-bottom: 30px;
 	margin: 20px 0px;
 }
-#contac{
-	align-content: center;
-}
 .contacto{
 	color: #FFFFFF;
-	background-color:rgba(111,111,111,1.00); 
-	margin-top: 20px;
-	margin-bottom: 20px;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	background-color:rgba(111,111,111,1.00);
+	padding-top: 40px;
+	padding-bottom: 60px;
 	
 }
 .sec-portafolio{
