@@ -1,7 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
-body{	
+body{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	
 }
+
 .icon-arrow-up2:before {
   content: "\ea3a";
 }
@@ -23,29 +26,33 @@ body{
 	padding-bottom: 30px;
 }
 #t4i{
+	display: block;
+	margin: auto;
 	width: 70%;
-	padding-top: 10px;
-	padding-left: 30px;
 }
 #sec-fotografia{
 	background-color:rgba(250,250,250,1.00);
 	padding-bottom: 30px;
-	margin: 20px 0px;
 }
 #sec-fotografia .row{
 	align-content: center;
 }
 #sec-disngraf{
-	background-color:rgba(250,250,250,1.00);
+	background-image:url(../img/ceiba.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
 }
 #grafdesign{
-		padding-top: 50px;
+		padding-top: 20px;
 	padding-bottom: 30px;
 }
 #diseno{
+	display: block;
+	margin: auto;
 	width: 70%;
-	padding-top: 10px;
-	padding-left: 30px;
 }
 #scrollUp {
   bottom: 20px;
@@ -69,4 +76,11 @@ body{
 	padding-top: 20px;
 	padding-bottom: 20px;
 	
+}
+.sec-portafolio{
+	background-color:rgba(250,250,250,1.00); 
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
