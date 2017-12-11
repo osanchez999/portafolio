@@ -3,6 +3,15 @@
 body{
 	font-family: 'PT Sans', sans-serif;
 }
+
+#nav{
+	padding-right: 60px;
+	color: #FFFFFF;
+}
+#logo{
+	padding-left: 50px;
+	color: #FFFFFF;
+}
 h2{
 	font-size: 50px;
 	
@@ -70,4 +79,8 @@ h2{
 }
 #map{
 	
+}
+.sec-portafolio article{
+	border: medium;
+	padding: 10px;
 }

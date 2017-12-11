@@ -22,7 +22,7 @@ a{
 }
 .navbar-default .navbar-nav li.active a{
 	background-color:transparent;
-	color:#212121;		
+	color:#fff;		
 }
 .navbar-default .navbar-nav li.active a:hover{
 	background-color:#FFF;
